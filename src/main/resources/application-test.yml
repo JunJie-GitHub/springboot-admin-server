@@ -1,0 +1,11 @@
+server:
+  port: 18667
+  servlet:
+    context-path: /serverAdmin
+spring:
+  application:
+    name: Server
+  security:
+    user:
+      name: admin
+      password: admin
